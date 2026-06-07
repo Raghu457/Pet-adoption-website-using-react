@@ -1,0 +1,73 @@
+{
+  "users": [],
+  "pets": [
+    {
+      "id": "1",
+      "name": "Bruno",
+      "type": "Dog",
+      "breed": "Labrador",
+      "age": "2 Years",
+      "gender": "Male",
+      "fee": "5000",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a",
+      "description": "Friendly and playful dog.",
+      "traits": [
+        "Friendly",
+        "Vaccinated",
+        "Good With Kids"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Luna",
+      "type": "Cat",
+      "breed": "Persian",
+      "age": "1 Year",
+      "gender": "Female",
+      "fee": "3000",
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1519052537078-e6302a4968d4",
+      "description": "Cute indoor cat.",
+      "traits": [
+        "Playful",
+        "Vaccinated",
+        "Indoor Pet"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Max",
+      "type": "Dog",
+      "breed": "Golden Retriever",
+      "age": "3 Years",
+      "gender": "Male",
+      "fee": "6000",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1558788353-f76d92427f16",
+      "description": "Loyal and energetic companion.",
+      "traits": [
+        "Friendly",
+        "Smart",
+        "Active"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Bella",
+      "type": "Cat",
+      "breed": "Siamese",
+      "age": "2 Years",
+      "gender": "Female",
+      "fee": "3500",
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1574158622682-e40e69881006",
+      "description": "Beautiful and affectionate cat.",
+      "traits": [
+        "Indoor Pet",
+        "Friendly",
+        "Vaccinated"
+      ]
+    }
+  ]
+}
