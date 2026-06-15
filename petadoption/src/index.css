@@ -1,3 +1,4 @@
+
 *{
   margin:0;
   padding:0;
@@ -571,4 +572,311 @@ select{
   .details img{
     height:300px;
   }
+}
+
+
+
+.pet-day-card{
+
+max-width:500px;
+
+margin:40px auto;
+
+background:white;
+
+padding:25px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:
+0 10px 25px
+rgba(0,0,0,.15);
+
+animation:
+fadeUp .8s ease;
+}
+
+.pet-day-card img{
+
+width:100%;
+
+height:300px;
+
+object-fit:cover;
+
+border-radius:15px;
+
+margin:15px 0;
+}
+
+.pet-day-card h2{
+
+color:#f97316;
+
+margin-bottom:15px;
+}
+
+.pet-day-card h3{
+
+color:#111827;
+
+font-size:1.8rem;
+}
+
+.pet-day-card p{
+
+color:#374151;
+
+font-size:1.1rem;
+
+margin-top:8px;
+}
+
+
+/* HERO SECTION */
+
+.hero{
+
+min-height:70vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+padding:40px;
+}
+
+.hero-content{
+
+max-width:1000px;
+}
+
+.hero h1{
+
+font-size:4rem;
+
+color:#f97316;
+
+margin-bottom:20px;
+}
+
+.hero p{
+
+font-size:1.3rem;
+
+margin-bottom:30px;
+}
+
+/* PET OF DAY */
+
+.pet-day-card{
+
+max-width:550px;
+
+margin:auto;
+
+background:white;
+
+padding:25px;
+
+border-radius:20px;
+
+box-shadow:
+0 15px 35px
+rgba(0,0,0,.1);
+
+transition:.3s;
+}
+
+.pet-day-card:hover{
+
+transform:
+translateY(-10px);
+
+box-shadow:
+0 20px 40px
+rgba(249,115,22,.25);
+}
+
+.pet-day-card img{
+
+width:100%;
+
+height:320px;
+
+object-fit:cover;
+
+border-radius:15px;
+
+margin:15px 0;
+}
+
+/* CARD */
+
+.card{
+
+cursor:pointer;
+
+transition:.4s ease;
+}
+
+.card:hover{
+
+transform:
+translateY(-12px)
+scale(1.02);
+
+box-shadow:
+0 25px 50px
+rgba(249,115,22,.25);
+}
+
+/* BUTTONS */
+
+.submit-btn,
+.favorite-btn,
+.auth-btn{
+
+transition:.3s ease;
+}
+
+.submit-btn:hover,
+.favorite-btn:hover,
+.auth-btn:hover{
+
+transform:
+translateY(-3px);
+
+box-shadow:
+0 10px 25px
+rgba(0,0,0,.2);
+}
+
+/* ANIMATION */
+
+.card,
+.hero,
+.favorite-card,
+.auth-card,
+.form-container,
+.pet-day-card{
+
+animation:
+fadeUp .8s ease;
+}
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:
+translateY(40px);
+}
+
+to{
+
+opacity:1;
+
+transform:
+translateY(0);
+}
+
+}
+
+
+
+@media(max-width:768px){
+
+main{
+
+width:95%;
+}
+
+nav{
+
+flex-wrap:wrap;
+
+gap:15px;
+
+padding:15px;
+}
+
+nav a{
+
+font-size:.9rem;
+}
+
+.hero{
+
+padding:20px;
+}
+
+.hero h1{
+
+font-size:2.3rem;
+}
+
+.hero p{
+
+font-size:1rem;
+}
+
+.pet-day-card{
+
+width:100%;
+}
+
+.pet-day-card img{
+
+height:220px;
+}
+
+.destinations{
+
+grid-template-columns:1fr;
+}
+
+.card img{
+
+height:220px;
+}
+
+.details img{
+
+height:250px;
+}
+
+.favorite-card img{
+
+height:220px;
+}
+
+input,
+select{
+
+width:100%;
+
+margin-bottom:10px;
+}
+
+.card-actions{
+
+flex-direction:column;
+}
+
+.view-btn,
+.edit-btn,
+.delete-btn{
+
+width:100%;
+}
+
 }

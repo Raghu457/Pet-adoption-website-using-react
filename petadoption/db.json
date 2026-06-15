@@ -1,9 +1,16 @@
 {
-  "users": [],
+  "users": [
+    {
+      "name": "Dimple",
+      "email": "dimple@2005",
+      "password": "Dimple@143",
+      "id": "_ihl69v0Dk8"
+    }
+  ],
   "pets": [
     {
       "id": "1",
-      "name": "Bruno",
+      "name": "Brunonsni",
       "type": "Dog",
       "breed": "Labrador",
       "age": "2 Years",
@@ -69,5 +76,6 @@
         "Vaccinated"
       ]
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
