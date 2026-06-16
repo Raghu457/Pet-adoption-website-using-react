@@ -6,15 +6,13 @@ import {
 import Home from "../pages/Home";
 import Pets from "../pages/Pets";
 import PetDetails from "../pages/PetDetails";
-
 import AddPet from "../pages/AddPet";
 import EditPet from "../pages/EditPet";
-
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Logout from "../pages/Logout";
-
 import Favorites from "../pages/Favorites";
+import ComparePets from "../pages/ComparePets";
 
 import ProtectedRoute
 from "./ProtectedRoute";
@@ -43,6 +41,11 @@ function AppRoutes() {
       <Route
         path="/favorites"
         element={<Favorites />}
+      />
+
+      <Route
+        path="/compare"
+        element={<ComparePets />}
       />
 
       <Route
@@ -81,6 +84,7 @@ function AppRoutes() {
     </Routes>
 
   );
+
 }
 
 export default AppRoutes;

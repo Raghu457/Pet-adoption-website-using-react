@@ -8,6 +8,7 @@ function Navbar() {
     );
 
   return (
+
     <nav>
 
       <Link to="/">
@@ -22,26 +23,46 @@ function Navbar() {
         Favorites
       </Link>
 
-      {!user && (
-        <>
-          <Link to="/register">
-            Register
+      <Link to="/compare">
+        Compare Pets
+      </Link>
+
+      {
+
+        !user && (
+
+          <>
+
+            <Link to="/register">
+              Register
+            </Link>
+
+            <Link to="/login">
+              Login
+            </Link>
+
+          </>
+
+        )
+
+      }
+
+      {
+
+        user && (
+
+          <Link to="/logout">
+            Logout
           </Link>
 
-          <Link to="/login">
-            Login
-          </Link>
-        </>
-      )}
+        )
 
-      {user && (
-        <Link to="/logout">
-          Logout
-        </Link>
-      )}
+      }
 
     </nav>
+
   );
+
 }
 
 export default Navbar;
